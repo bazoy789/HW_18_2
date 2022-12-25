@@ -12,7 +12,7 @@
 # from views.books import book_ns
 # from views.reviews import review_ns
 #
-# функция создания основного объекта app
+# функция создания основного объекта appa
 # def create_app(config_object):
 #     app = Flask(__name__)
 #     app.config.from_object(config_object)
@@ -20,17 +20,17 @@
 #     return app
 #
 #
-# функция подключения расширений (Flask-SQLAlchemy, Flask-RESTx, ...)
+# функция подключения расширений (Flask-SQLAlchemy, Flask-RESTx, ...)a
 # def register_extensions(app):
 #     db.init_app(app)
 #     api = Api(app)
 #     api.add_namespace(...)
 #     create_data(app, db)
 #
-#
-# функция
+#a
+# функцияa
 # def create_data(app, db):
-#     with app.app_context():
+#     with app.app_context():a
 #         db.create_all()
 #
 #         создать несколько сущностей чтобы добавить их в БД
